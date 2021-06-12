@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1088806046707-vll6f8jvf5ams9ceb5364fi1kf442ofb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1088806046707-vll6f8jvf5ams9ceb5364fi1kf442ofb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCDOHd61EdH_C4Wu-Olb6eHR5BLzSRt4Oo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1088806046707</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mlysx018.MentalDiar</string>
+	<key>PROJECT_ID</key>
+	<string>mentaldiary-1dc4a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mentaldiary-1dc4a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1088806046707:ios:fed4d144daf109a5bf6086</string>
+</dict>
+</plist>
