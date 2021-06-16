@@ -16,3 +16,15 @@ target 'MentalDiary' do
   pod 'lottie-ios'
 
 end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |t|
+   t.build_configurations.each do |config|
+
+    # to make @IBDesignable work with IB
+    config.build_settings.delete('CODE_SIGNING_ALLOWED')
+    config.build_settings.delete('CODE_SIGNING_REQUIRED')
+    config.build_settings['CONFIGURATION_BUILD_DIR'] ='$PODS_CONFIGURATION_BUILD_DIR'
+   end
+ end
+end

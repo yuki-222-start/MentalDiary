@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cO5-EX-Vyp">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MentalDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mental Diary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDi-l9-YpK">
-                                <rect key="frame" x="92" y="185" width="245" height="56"/>
+                                <rect key="frame" x="92" y="86" width="192" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rDi-l9-YpK" secondAttribute="height" multiplier="231:53" id="ohC-it-pEf"/>
                                 </constraints>
@@ -26,7 +26,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diary" translatesAutoresizingMaskIntoConstraints="NO" id="cD2-m7-jXv">
-                                <rect key="frame" x="0.0" y="333" width="428" height="300"/>
+                                <rect key="frame" x="0.0" y="222" width="375" height="263"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cD2-m7-jXv" secondAttribute="height" multiplier="207:145" id="zWy-V3-kpT"/>
                                 </constraints>
@@ -59,16 +59,16 @@
             <objects>
                 <viewController storyboardIdentifier="loginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Sh8-4P-VnJ" customClass="LoginViewController" customModule="MentalDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pcR-L6-FQk">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="名前を入力してください" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7ZS-Hp-snK">
-                                <rect key="frame" x="91" y="446" width="246" height="34"/>
+                                <rect key="frame" x="91" y="316.5" width="193" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdk-P2-hIU">
-                                <rect key="frame" x="117" y="575" width="194" height="46.333333333333371"/>
+                                <rect key="frame" x="117" y="445.5" width="141" height="33.5"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hdk-P2-hIU" secondAttribute="height" multiplier="180:43" id="sT6-y5-pNJ"/>
@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpC-lA-UqT">
-                                <rect key="frame" x="40" y="126" width="348" height="290"/>
+                                <rect key="frame" x="65" y="82" width="245" height="204.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="Axd-OY-77L"/>
@@ -137,18 +137,18 @@
             <objects>
                 <viewController storyboardIdentifier="calendarVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OVa-cO-4yD" customClass="CalendarViewController" customModule="MentalDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eDa-Ok-GFB">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xz2-Zk-HE1" customClass="FSCalendar" customModule="MentalDiary" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="87.999999999999972" width="428" height="503.33333333333326"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xz2-Zk-HE1" customClass="FSCalendar">
+                                <rect key="frame" x="0.0" y="44" width="375" height="441"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Xz2-Zk-HE1" secondAttribute="height" multiplier="414:487" id="7yF-v2-kVA"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIX-sX-UAM">
-                                <rect key="frame" x="326.66666666666669" y="855.66666666666663" width="81.333333333333314" height="36.333333333333371"/>
+                                <rect key="frame" x="273.5" y="600.5" width="81.5" height="36.5"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36.5" id="5xg-nH-SxH"/>
@@ -163,23 +163,23 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w9e-8g-f4J">
-                                <rect key="frame" x="0.0" y="598.33333333333337" width="308.66666666666669" height="327.66666666666663"/>
+                                <rect key="frame" x="71" y="495" width="133" height="172"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="w9e-8g-f4J" secondAttribute="height" multiplier="148:157" id="xva-xB-K0M"/>
+                                    <constraint firstAttribute="width" secondItem="w9e-8g-f4J" secondAttribute="height" multiplier="252:325" id="qKX-6J-SrC"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FwO-Wa-Brb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="w9e-8g-f4J" secondAttribute="bottom" id="2JV-T9-PPa"/>
-                            <constraint firstItem="w9e-8g-f4J" firstAttribute="top" secondItem="Xz2-Zk-HE1" secondAttribute="bottom" constant="7" id="YLN-2t-lJ8"/>
+                            <constraint firstItem="w9e-8g-f4J" firstAttribute="centerX" secondItem="eDa-Ok-GFB" secondAttribute="centerX" constant="-50" id="MFk-YG-xG9"/>
+                            <constraint firstAttribute="bottom" secondItem="w9e-8g-f4J" secondAttribute="bottom" id="Om6-01-BUl"/>
                             <constraint firstItem="Xz2-Zk-HE1" firstAttribute="top" secondItem="FwO-Wa-Brb" secondAttribute="top" id="YyL-lD-ZRc"/>
                             <constraint firstItem="FwO-Wa-Brb" firstAttribute="trailing" secondItem="GIX-sX-UAM" secondAttribute="trailing" constant="20" id="ZfH-yJ-cYz"/>
+                            <constraint firstItem="w9e-8g-f4J" firstAttribute="top" secondItem="Xz2-Zk-HE1" secondAttribute="bottom" constant="10" id="e2g-8e-36q"/>
                             <constraint firstItem="Xz2-Zk-HE1" firstAttribute="trailing" secondItem="FwO-Wa-Brb" secondAttribute="trailing" id="laV-IE-J6s"/>
-                            <constraint firstItem="GIX-sX-UAM" firstAttribute="bottom" secondItem="FwO-Wa-Brb" secondAttribute="bottom" id="tL3-Lv-jCr"/>
-                            <constraint firstItem="w9e-8g-f4J" firstAttribute="leading" secondItem="FwO-Wa-Brb" secondAttribute="leading" id="vTJ-Rd-hka"/>
+                            <constraint firstItem="GIX-sX-UAM" firstAttribute="bottom" secondItem="FwO-Wa-Brb" secondAttribute="bottom" constant="-30" id="tL3-Lv-jCr"/>
                             <constraint firstItem="Xz2-Zk-HE1" firstAttribute="leading" secondItem="FwO-Wa-Brb" secondAttribute="leading" id="zcH-F7-DlR"/>
                         </constraints>
                     </view>
@@ -192,18 +192,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1qq-7k-nNQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2615.9420289855075" y="59.598214285714285"/>
+            <point key="canvasLocation" x="2614.4859813084113" y="58.963282937365015"/>
         </scene>
         <!--Chart View Controller-->
         <scene sceneID="N36-eW-utB">
             <objects>
                 <viewController storyboardIdentifier="chartVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TOb-g6-7TO" customClass="ChartViewController" customModule="MentalDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LpG-QM-RUg">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" horizontalHuggingPriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ad0-Xp-0FQ" customClass="LineChartView" customModule="Charts">
-                                <rect key="frame" x="0.0" y="232" width="428" height="362"/>
+                                <rect key="frame" x="0.0" y="125" width="375" height="317"/>
                                 <viewLayoutGuide key="safeArea" id="mb7-bG-7f2"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -211,7 +211,7 @@
                                 </constraints>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7na-Ww-cH3">
-                                <rect key="frame" x="76" y="801" width="186" height="34"/>
+                                <rect key="frame" x="76" y="578" width="174" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7na-Ww-cH3" secondAttribute="height" multiplier="93:17" id="Ryq-1q-Uxu"/>
                                 </constraints>
@@ -219,7 +219,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YY5-Xn-dsJ">
-                                <rect key="frame" x="277" y="801" width="72" height="34"/>
+                                <rect key="frame" x="265" y="578" width="31" height="32"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="YY5-Xn-dsJ" secondAttribute="height" multiplier="51:35" id="h05-79-BX5"/>
@@ -237,7 +237,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nni-LM-wVt">
-                                <rect key="frame" x="94" y="650.66666666666663" width="40" height="25"/>
+                                <rect key="frame" x="67.5" y="521" width="40" height="25"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="RqH-xS-xGp"/>
@@ -248,7 +248,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgk-B6-A9t">
-                                <rect key="frame" x="184" y="650.66666666666663" width="150" height="25"/>
+                                <rect key="frame" x="157.5" y="521" width="150" height="25"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="4Ly-85-IgF"/>
@@ -259,7 +259,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJO-ho-7SI">
-                                <rect key="frame" x="194" y="202" width="40" height="25"/>
+                                <rect key="frame" x="167.5" y="95" width="40" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="jYA-el-mrc"/>
                                     <constraint firstAttribute="height" constant="25" id="z6n-0a-yEG"/>
@@ -314,29 +314,29 @@
             <objects>
                 <viewController storyboardIdentifier="diaryVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PSe-3q-aRW" customClass="DiaryViewController" customModule="MentalDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ia2-9m-hYc">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="メンタルスコア" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3u-kY-lyd">
-                                <rect key="frame" x="103" y="121" width="122" height="34"/>
+                                <rect key="frame" x="76.5" y="77" width="122" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0~100" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8q9-w4-Hbd">
-                                <rect key="frame" x="229.66666666666666" y="121" width="69.333333333333343" height="34"/>
+                                <rect key="frame" x="203" y="77" width="69.5" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSU-e6-GrN">
-                                <rect key="frame" x="20" y="223" width="388" height="659"/>
+                                <rect key="frame" x="20" y="179" width="335" height="478"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日記" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3h-S1-Pv6">
-                                <rect key="frame" x="160" y="171" width="108" height="32"/>
+                                <rect key="frame" x="160" y="127" width="55" height="32"/>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -381,7 +381,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cO5-EX-Vyp" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Llw-OG-qZv">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
