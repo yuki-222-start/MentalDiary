@@ -179,6 +179,7 @@ class ChartViewController: UIViewController,UITextFieldDelegate,UIPickerViewDele
             
             let mentalScore = Int(loadDataModel.chartDataSets[sliceIndex].mentalScore!)
             let day = Int(loadDataModel.chartDataSets[sliceIndex].day!)
+            mentalScoreLabel.font.withSize(17)
             mentalScoreLabel.text = "メンタルスコア \(String(mentalScore))"
             dayLabel.text = "\(String(day))日"
         }
